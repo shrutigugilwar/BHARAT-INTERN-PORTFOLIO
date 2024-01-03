@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main{
+    height:100vh ;
+    width:100%;
+    background-image:url(../portfolio/bgc.webp);
+    background-size: cover;
+    background-position: center;
+    color: cornsilk; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+.logo{
+    color:cornsilk;
+    font-size:  35px;
+    initial-letter: 1px;
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding: 10px 16px;
+}
+nav ul li a{
+    color:beige;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: -3%; 
+}
+nav ul li a:hover{
+    color:rgb(19, 176, 182);
+    transition: .4s;
+}
+.content{
+    position:absolute;
+    top:30%;
+    left:8%;
+}
+h1{
+    color: beige;
+    margin:20px 0px 20px;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: beige;
+    font-size: 30px;
+    margin-bottom:50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    color:beige;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.content span{
+    color:rgb(19, 176, 182);
+}
+.about{
+    width: 100px;
+    padding:100px 0px;
+    background-color: black;
+}
+.about img{
+    height:auto;
+    width:430px;
+    background-color: black;
+}
+.about-text{
+    width:550px;
+    background-color: black;
+}
+.me{
+    width:1130px;
+    max-width: 95;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: black;
+}
+.about-text h2{
+    color:rgb(19, 176, 182);
+    font-size:75px;
+    text-transform:capitalize;
+    margin: bottom 20px;
+    background-color: black;
+}
+.about-text h5{ 
+    color:rgb(19, 176, 182);
+    letter-spacing: 2px;
+    font-size:22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    background-color: black;
+}
+.about-text p{
+    color:beige;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom:45px;
+    background-color: black;
+}
+button{
+    background-color: rgb(19, 176, 182);
+    color:beige;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius:30px;
+    transition: .4s;
+}
+.service{
+    background:black;
+    width:100%;
+    padding:100px 0px;
+}
+.title h2{
+    color: rgb(19, 176, 182);
+    font-size: 70px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 200px;
+}
+.card{
+    height:300px;
+    width:300px;
+    padding:20px 30px;
+    background: rgb(5, 108, 112);
+    border-radius:20px;
+    margin:15px;
+    position: relative;
+    overflow:hidden;
+    text-align:center;
+}
+
+h5{
+    color:beige;
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.cc p{
+    color:beige;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+.project{ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px,20px;
+    height:30%;
+    width:100%;
+}
